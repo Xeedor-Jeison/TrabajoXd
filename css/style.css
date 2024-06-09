@@ -2,8 +2,11 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: 'agency_fb', sans-serif;
 }
-
+body{
+	overflow: hidden;
+}
 .prueba {
 	z-index: 100;
 }
@@ -16,15 +19,21 @@
 	padding-top: 25px;
 }
 .prueba-a > a {
-	color: #fff;
+	color: #545543;
+	font-size: 30px;
 }
 a {
 	text-decoration: none;
 	font-weight: bold;
 }
-
+.titulo-carousel {
+	color: #545543;
+}
+.parrafos {
+	color: #24826c;
+}
 .prueba-a > a:hover {
-	color: #0232f2;
+	color: transparent;
 }
 
 .div-container {
@@ -42,8 +51,12 @@ a {
 
 .div-footer-primario {
 	display: flex;
-	justify-content: space-between;
 	padding: 10px;
+}
+
+#footer-index {
+	background-color: #545543;
+	color: #fff;
 }
 .footer-entrada {
 	margin: 5px;
@@ -57,12 +70,21 @@ a {
 	width: 175px;
 }
 .footer-index > .footer-img > img {
-	width: 175px;
+	width: 100%;
+	padding: 10px;
+}
+.footer-index > .footer-img {
+	width: 25%;
 }
 
 .div-secun-footer {
 	width: 35%;
-	padding-top: 20px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+.div-secun-footer > div > a {
+	color: #24826c;
 }
 .texto {
 	color: #fff;
@@ -100,6 +122,9 @@ p {
 	color: #0232f2;
 	background-color: aqua;
 }
+/* a[href="#"]{
+	background-color: #dcc410;
+} */
 
 #boletas {
 	background-color: #a89337;
